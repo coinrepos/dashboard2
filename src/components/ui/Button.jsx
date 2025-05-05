@@ -1,6 +1,6 @@
 import React from "react";
 
-// Named export so you can import { Button } from "./components/ui/button";
+// Named export so you can import { Button } from "./components/ui/Button";
 export function Button({ children, onClick, className = "" }) {
   return (
     <button
